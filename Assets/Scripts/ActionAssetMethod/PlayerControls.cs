@@ -3,11 +3,11 @@ using System.Collections.Generic;
 using UnityEngine;
 using UnityEngine.InputSystem;
 
-public class PlayerInput : MonoBehaviour
+public class PlayerControls : MonoBehaviour
 {
     private Controls m_Controls;
-
     private PlayerController m_PlayerController;
+
     void Awake()
     {
         m_Controls = new Controls();

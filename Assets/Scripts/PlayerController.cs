@@ -2,8 +2,8 @@
 
 public class PlayerController : MonoBehaviour
 {
+    public int playerIndex;
     public float speed;
-
     public float jumpForce;
 
     private Rigidbody m_Rigidbody;
